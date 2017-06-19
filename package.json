@@ -1,0 +1,22 @@
+{
+  "name": "boilerplatewebpack",
+  "version": "1.0.0",
+  "description": "\"# Boilerplate-Webpack\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heense/Boilerplate-Webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heense/Boilerplate-Webpack/issues"
+  },
+  "homepage": "https://github.com/heense/Boilerplate-Webpack#readme",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}
