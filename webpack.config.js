@@ -6,8 +6,14 @@ module.exports = {
         path: __dirname + "/dist",
         filename: './app.bundle.js'
     },
+    devServer: {
+        contentBase:  __dirname + "/dist",
+        compress: true,
+        stats: "errors-only",
+        open: true
+    },
     plugins: [new HtmlWebpackPlugin({
-    title: 'Project',
+    title: 'Project Name',
     minify: {
         collapseWhitespace: false
     },
