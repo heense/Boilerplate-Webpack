@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "\"# Boilerplate-Webpack\"",
   "main": "index.js",
+  "browserlist": [
+    "> 1%",
+    "ie > 9"
+  ],
   "scripts": {
     "dev": "webpack-dev-server",
     "prod": "webpack -p"
@@ -18,9 +22,16 @@
   },
   "homepage": "https://github.com/heense/Boilerplate-Webpack#readme",
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "2.0.0",
     "html-webpack-plugin": "^2.28.0",
     "install": "^0.10.1",
+    "node-sass": "^4.5.3",
     "npm": "^5.0.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.4.5"
   }
