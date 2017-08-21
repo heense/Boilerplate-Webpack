@@ -32,6 +32,6 @@ module.exports = {
             hash: false,
             template: './src/index.html', // Load a custom template (ejs by default see the FAQ for details)
         }),
-        new ExtractTextPlugin('./dist/style.css')
+        new ExtractTextPlugin('./css/style.css')
     ]
 }
